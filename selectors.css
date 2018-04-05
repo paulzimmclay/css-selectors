@@ -33,7 +33,7 @@ a > .disabled {
   border: green dotted 1px;
   border-radius: 10px;
 }
-.promo {
+.promo {  
   font-weight: 800;
   color: gold;
 }
