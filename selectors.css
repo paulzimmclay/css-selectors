@@ -1,11 +1,23 @@
+/* #1 */
 header {
   border: 1px solid goldenrod;
 }
-
-ul {
-  list-style: none;
+/* #2 */
+nav ul {
   display: inline-block;
+  list-style-type: square;
 }
-li {
+nav li {
   display: inline;
+}
+.disabled {
+  color: grey;
+}
+
+a .disabled {
+  color: purple;
+}
+
+.active {
+  color: yellow;
 }
